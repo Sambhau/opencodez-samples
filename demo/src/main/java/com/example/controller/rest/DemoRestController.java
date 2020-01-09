@@ -25,7 +25,7 @@ public class DemoRestController {
 		Example example = new Example();
 		example.setExValue(Long.parseLong(exvalue));
 		genericRepo.saveExample(example);
-		return example;
+		return sample;
     }
 	
 	
