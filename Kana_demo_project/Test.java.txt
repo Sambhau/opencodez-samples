@@ -2,7 +2,8 @@ class Test{
 
 public static  void main(String args[]){
 
-System.out.println("Hello Sambhaji");
+System.out.println("Hello Kana");
+System.out.println("Hello Samadhan");
 System.out.println("Hello Samadhan");
 
 }
