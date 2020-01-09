@@ -29,6 +29,10 @@ public class DemoRestController {
     }
 	
 	
+@RequestMapping("/getallexample")
+    public List<Example> getExample() {
+    	return genericRepo.getExamples();
+    }
 	@RequestMapping("/getall")
     public List<Example> getExample() {
     	return genericRepo.getExamples();
