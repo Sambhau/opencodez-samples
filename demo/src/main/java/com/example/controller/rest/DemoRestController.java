@@ -25,14 +25,11 @@ public class DemoRestController {
 		Example example = new Example();
 		example.setExValue(Long.parseLong(exvalue));
 		genericRepo.saveExample(example);
-		return sample;
+		return example;
     }
 	
 	
-@RequestMapping("/getallexample")
-    public List<Example> getExample() {
-    	return genericRepo.getExamples();
-    }
+
 	@RequestMapping("/getall")
     public List<Example> getExample() {
     	return genericRepo.getExamples();
